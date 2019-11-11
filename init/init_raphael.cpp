@@ -47,6 +47,7 @@ void load_raphaelglobal() {
     property_override("ro.build.product", "raphael");
     property_override("ro.product.device", "raphael");
     property_override("ro.build.description", "raphael-user 10 QKQ1.190825.002 V11.0.4.0.QFKMIXM release-keys");
+    property_override("ro.control_privapp_permissions", "log");
 }
 
 void load_raphaelin() {
@@ -54,6 +55,7 @@ void load_raphaelin() {
     property_override("ro.build.product", "raphaelin");
     property_override("ro.product.device", "raphaelin");
     property_override("ro.build.description", "raphaelin-user 10 QKQ1.190825.002 V11.0.4.0.QFKINXM release-keys");
+    property_override("ro.control_privapp_permissions", "log");
 }
 
 void load_raphael() {
@@ -61,6 +63,7 @@ void load_raphael() {
     property_override("ro.build.product", "raphael");
     property_override("ro.product.device", "raphael");
     property_override("ro.build.description", "raphael-user 10 QKQ1.190825.002 V11.0.8.0.QFKCNXM release-keys");
+    property_override("ro.control_privapp_permissions", "log");
 }
 
 
