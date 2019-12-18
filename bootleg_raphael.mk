@@ -23,3 +23,6 @@ PRODUCT_MANUFACTURER := Xiaomi
 BUILD_FINGERPRINT := "Xiaomi/raphael/raphael:10/QKQ1.190825.002/V11.0.2.0.QFKMIXM:user/release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Inherit from custom vendor
+$(call inherit-product, vendor/MiuiCamera/config.mk)
