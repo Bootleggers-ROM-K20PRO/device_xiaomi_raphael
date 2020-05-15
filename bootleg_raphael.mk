@@ -24,5 +24,6 @@ BOOTLEGGERS_SITDOWN := true
 # Inherit from custom vendor
 $(call inherit-product, vendor/MiuiCamera/config.mk)
 
+# MIUI Camera overlay
 PRODUCT_PACKAGES += \
-    MiuiCamera-res-48mp-triple
+    MiuiCamera-res
