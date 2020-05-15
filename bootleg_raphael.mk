@@ -28,3 +28,6 @@ BOOTLEGGERS_SITDOWN := true
 
 # Inherit from custom vendor
 $(call inherit-product, vendor/MiuiCamera/config.mk)
+
+PRODUCT_PACKAGES += \
+    MiuiCamera-res-48mp-triple
