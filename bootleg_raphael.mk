@@ -24,5 +24,7 @@ BUILD_FINGERPRINT := "Xiaomi/raphael/raphael:10/QKQ1.190825.002/V11.0.2.0.QFKMIX
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+BOOTLEGGERS_SITDOWN := true
+
 # Inherit from custom vendor
 $(call inherit-product, vendor/MiuiCamera/config.mk)
